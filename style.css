@@ -1,3 +1,505 @@
-*{
-    background-color: yellow;
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body{
+  font-family: monospace;
+  background-color: #e7e4e4;
+}
+
+
+nav{
+  background-color: #4E6E5D;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+  box-shadow: 10px 0px 10px #4D5057;
+}
+
+
+
+.profile-container{
+  margin-right: 10vw;
+}
+
+.profile{
+  height: 120px;
+  border: 2px dashed #cfcfcf;
+  border-radius: 100px;
+}
+
+.links-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  color: #e9e7e7;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: inherit;
+}
+
+.projects{
+    width: 100%;
+    padding: 10px;
+}
+
+.project-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 3vh;
+    margin: 3vh 0;
+
+}
+
+.project-description{
+    width: 35%;
+}
+
+.project-links{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+button{
+  height: fit-content;
+  background-color: #4DA167;
+  border: none;
+}
+
+.git-link{
+  background-color: #3BC14A;
+}
+
+.git-link, .app-link{
+  font-size: 1.2em;
+  color: white;
+}
+
+.project-image{
+    width: 33%;
+    box-shadow: -3px 3px 15px #4E6E5D;
+}
+
+.project-image:hover{
+  transform: scale(1.01);
+}
+
+.image-holder{
+    width: 100%;
+    height: 100%;
+    min-height: 350px;
+    background-size: cover;
+}
+
+.project-technology{
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-container{
+  height: 95%;
+  width: 95%;
+  max-height: 325px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.icon-container{
+  width: 100%;
+  height: 100%;
+  max-height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfdfd;
+  box-shadow: -1px 1px 6px #4E6E5D;
+}
+
+.icon-container:hover{
+  transform: scale(1.05);
+}
+
+.icon{
+  width: 70%;
+  max-width: 75px;
+  height: fit-content;
+  max-height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.icon img{
+  height: 100%;
+  width: 100%;
+}
+
+
+.line-break{
+  width: 75%;
+  height: 2px;
+  margin: 0 auto 50px auto;
+  background-color: #4DA167;
+  opacity: 0.3;
+}
+
+.members-only-img{
+  background-image: url('/img/members-only.png');
+  background-size: 100% 100%;
+}
+
+.members-only-img:hover{
+  background-image: url('/gifs/members-only.gif');
+}
+
+.fruit-shop-img{
+  background-image: url('/img/fruit-shop.png');
+  background-size: 100% 100%;
+}
+
+.fruit-shop-img:hover{
+  background-image: url('/gifs/fruit-shop.gif');
+}
+
+.memory-game-img{
+  background-image: url('/img/memory-game.png');
+  background-size: 100% 100%;
+}
+
+.memory-game-img:hover{
+  background-image: url('/gifs/memory-game.gif');
+}
+
+.mekea-img{
+  background-image: url('/img/mekea.png');
+  background-size: 100% 100%;
+}
+
+.mekea-img:hover{
+  background-image: url('/gifs/mekea.gif');
+}
+
+.tag-img{
+  background-image: url('/img/tag.png');
+  background-size: 100% 100%;
+}
+
+.tag-img:hover{
+  background-image: url('/gifs/tag.gif');
+}
+
+.battleships-img{
+  background-image: url('/img/battleships.png');
+  background-size: 100% 100%;
+}
+
+.battleships-img:hover{
+  background-image: url('/gifs/battleships.gif');
+}
+
+.weather-img{
+  background-image: url('/img/weather.png');
+  background-size: 100% 100%;
+}
+
+.weather-img:hover{
+  background-image: url('/gifs/weather.gif');
+}
+
+.youtube-img{
+  background-image: url('/img/youtube.png');
+  background-size: 100% 100%;
+}
+
+.youtube-img:hover{
+  background-image: url('/gifs/youtube.gif');
+}
+
+.live-link{
+  width: 100%;   
+  height: 100%;
+}
+
+
+@media only screen and (max-width: 1420px) {
+
+  .project-image{
+    width: 40%;
+}
+
+  .image-holder{
+      min-height: 380px;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .project-container{
+    padding-bottom: 3vh;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-description{
+      width: 85%;
+      margin-bottom: 35px;
+  }
+
+  .project-image{
+      width: 55%;
+      margin-bottom: 50px;
+  }
+
+  .image-holder{
+    min-height: 400px;
+  }
+
+  .project-technology{
+    width: 100%;
+    margin-top: 10px
+
+  }
+
+  .tech-container{
+    height: 95%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .icon-container{
+    width: 85px;
+    height: 85px;
+  }
+
+  .icon{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+  }
+
+  .icon img{
+    max-width: 70%;
+    max-height: 70%;
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+  .project-image{
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+
+  nav{
+    width: 100%;
+    font-size: 1em;
+  }
+
+  .profile-container{
+    margin-right: 10px;
+  }
+
+  .profile{
+    height: 50px;
+  }
+
+  .links-container{
+    width: 85%;
+  }
+
+  .project-description{
+    width: 90%;
+    font-size: 0.8em;
+  }
+
+  .image-holder{
+    min-height: 70vh;
+  }
+
+  .project-image{
+    width: 90vw;
+    margin-bottom: 20px;
+  }
+
+  .project-technology{
+    width: 100%;
+  }
+
+  .icon-container{
+    max-height: 50px;
+    max-width: 60px;
+  }
+
+  .icon{
+    margin: 0;
+  }
+
+  .icon img{
+    max-height: 45px;
+  }
+
+  .members-only-img{
+    background-image: url('/img/members-only-mob.png');
+    background-size: 100% 100%;
+  }
+
+  .members-only-img:hover{
+    background-image: url('/img/members-only-mob.png');
+  }
+
+  .fruit-shop-img{
+    background-image: url('/img/fruit-shop-mob.png');
+    background-size: 100% 100%;
+  }
+  
+  .fruit-shop-img:hover{
+    background-image: url('/img/fruit-shop-mob.png');
+  }
+  
+  .memory-game-img{
+    background-image: url('/img/memory-game-mob.png');
+    background-size: 100% 100%;
+  }
+  
+  .memory-game-img:hover{
+    background-image: url('/img/memory-game-mob.png');
+  }
+  
+  .mekea-img{
+    background-image: url('/img/mekea-mob.png');
+    background-size: 100% 100%;
+  }
+  
+  .mekea-img:hover{
+    background-image: url('/img/mekea-mob.png');
+  }
+  
+  .tag-img{
+    background-image: url('/img/tag-mob.png');
+    background-size: 100% 100%;
+  }
+  
+  .tag-img:hover{
+    background-image: url('/img/tag-mob.png');
+  }
+  
+  .battleships-img{
+    background-image: url('/img/battleships-mob.png');
+    background-size: 100% 100%;
+  }
+  
+  .battleships-img:hover{
+    background-image: url('/img/battleships-mob.png');
+  }
+  
+  .weather-img{
+    background-image: url('/img/weather-mob.png');
+    background-size: 100% 100%;
+  }
+  
+  .weather-img:hover{
+    background-image: url('/img/weather-mob.png');
+  }
+  
+  .youtube-img{
+    background-image: url('/img/youtube-mob.png');
+    background-size: 100% 100%;
+  }
+  
+  .youtube-img:hover{
+    background-image: url('/img/youtube-mob.png');
+  }
+
+
 }
