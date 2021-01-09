@@ -234,16 +234,16 @@ button{
 }
 
 .members-only-img:hover{
-  background-image: url('/gifs/members-only.gif');
+  background-image: url('gifs/members-only.gif');
 }
 
 .fruit-shop-img{
-  background-image: url('/img/fruit-shop.png');
+  background-image: url('img/fruit-shop.png');
   background-size: 100% 100%;
 }
 
 .fruit-shop-img:hover{
-  background-image: url('/gifs/fruit-shop.gif');
+  background-image: url('gifs/fruit-shop.gif');
 }
 
 .memory-game-img{
