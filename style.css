@@ -229,7 +229,7 @@ button{
 }
 
 .members-only-img{
-  background-image: url('img/members-only.png');
+  background-image: url('./img/members-only.png');
   background-size: 100% 100%;
 }
 
