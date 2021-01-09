@@ -107,6 +107,7 @@ nav{
 
 a{
   text-decoration: none;
+  color: #e9e7e7;
 }
 
 a:visited{
@@ -247,57 +248,57 @@ button{
 }
 
 .memory-game-img{
-  background-image: url('/img/memory-game.png');
+  background-image: url('img/memory-game.png');
   background-size: 100% 100%;
 }
 
 .memory-game-img:hover{
-  background-image: url('/gifs/memory-game.gif');
+  background-image: url('gifs/memory-game.gif');
 }
 
 .mekea-img{
-  background-image: url('/img/mekea.png');
+  background-image: url('img/mekea.png');
   background-size: 100% 100%;
 }
 
 .mekea-img:hover{
-  background-image: url('/gifs/mekea.gif');
+  background-image: url('gifs/mekea.gif');
 }
 
 .tag-img{
-  background-image: url('/img/tag.png');
+  background-image: url('img/tag.png');
   background-size: 100% 100%;
 }
 
 .tag-img:hover{
-  background-image: url('/gifs/tag.gif');
+  background-image: url('gifs/tag.gif');
 }
 
 .battleships-img{
-  background-image: url('/img/battleships.png');
+  background-image: url('img/battleships.png');
   background-size: 100% 100%;
 }
 
 .battleships-img:hover{
-  background-image: url('/gifs/battleships.gif');
+  background-image: url('gifs/battleships.gif');
 }
 
 .weather-img{
-  background-image: url('/img/weather.png');
+  background-image: url('img/weather.png');
   background-size: 100% 100%;
 }
 
 .weather-img:hover{
-  background-image: url('/gifs/weather.gif');
+  background-image: url('gifs/weather.gif');
 }
 
 .youtube-img{
-  background-image: url('/img/youtube.png');
+  background-image: url('img/youtube.png');
   background-size: 100% 100%;
 }
 
 .youtube-img:hover{
-  background-image: url('/gifs/youtube.gif');
+  background-image: url('gifs/youtube.gif');
 }
 
 .live-link{
@@ -430,75 +431,75 @@ button{
   }
 
   .members-only-img{
-    background-image: url('/img/members-only-mob.png');
+    background-image: url('img/members-only-mob.png');
     background-size: 100% 100%;
   }
 
   .members-only-img:hover{
-    background-image: url('/img/members-only-mob.png');
+    background-image: url('img/members-only-mob.png');
   }
 
   .fruit-shop-img{
-    background-image: url('/img/fruit-shop-mob.png');
+    background-image: url('img/fruit-shop-mob.png');
     background-size: 100% 100%;
   }
   
   .fruit-shop-img:hover{
-    background-image: url('/img/fruit-shop-mob.png');
+    background-image: url('img/fruit-shop-mob.png');
   }
   
   .memory-game-img{
-    background-image: url('/img/memory-game-mob.png');
+    background-image: url('img/memory-game-mob.png');
     background-size: 100% 100%;
   }
   
   .memory-game-img:hover{
-    background-image: url('/img/memory-game-mob.png');
+    background-image: url('img/memory-game-mob.png');
   }
   
   .mekea-img{
-    background-image: url('/img/mekea-mob.png');
+    background-image: url('img/mekea-mob.png');
     background-size: 100% 100%;
   }
   
   .mekea-img:hover{
-    background-image: url('/img/mekea-mob.png');
+    background-image: url('img/mekea-mob.png');
   }
   
   .tag-img{
-    background-image: url('/img/tag-mob.png');
+    background-image: url('img/tag-mob.png');
     background-size: 100% 100%;
   }
   
   .tag-img:hover{
-    background-image: url('/img/tag-mob.png');
+    background-image: url('img/tag-mob.png');
   }
   
   .battleships-img{
-    background-image: url('/img/battleships-mob.png');
+    background-image: url('img/battleships-mob.png');
     background-size: 100% 100%;
   }
   
   .battleships-img:hover{
-    background-image: url('/img/battleships-mob.png');
+    background-image: url('img/battleships-mob.png');
   }
   
   .weather-img{
-    background-image: url('/img/weather-mob.png');
+    background-image: url('img/weather-mob.png');
     background-size: 100% 100%;
   }
   
   .weather-img:hover{
-    background-image: url('/img/weather-mob.png');
+    background-image: url('img/weather-mob.png');
   }
   
   .youtube-img{
-    background-image: url('/img/youtube-mob.png');
+    background-image: url('img/youtube-mob.png');
     background-size: 100% 100%;
   }
   
   .youtube-img:hover{
-    background-image: url('/img/youtube-mob.png');
+    background-image: url('img/youtube-mob.png');
   }
 
 
