@@ -366,6 +366,31 @@ button:hover{
   height: 100%;
 }
 
+.contact-info span{
+  padding: 5px;
+  font-weight: 500;
+  background-color: #4E6E5D;
+  color:#e9e7e7;
+  box-shadow: -3px 3px 10px rgb(95, 95, 95);
+}
+
+.contact-details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.contact-details p{
+  margin: 10px 0px;
+}
+
+.contact-details a{
+  color: #4E6E5D
+}
+
 
 @media only screen and (max-width: 1420px) {
 
@@ -448,32 +473,6 @@ button:hover{
 }
 
 
-.contact-info span{
-  padding: 5px;
-  font-weight: 500;
-  background-color: #4E6E5D;
-  color:#e9e7e7;
-  box-shadow: -3px 3px 10px rgb(95, 95, 95);
-}
-
-.contact-details{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: black;
-  font-weight: 800;
-  font-size: 2em;
-}
-
-.contact-details p{
-  margin: 10px;
-}
-
-.contact-details a{
-  color: #4E6E5D
-}
-
-
 @media only screen and (max-width: 900px) {
 
   .about-filler{
@@ -487,6 +486,14 @@ button:hover{
 
   .project-image{
     width: 75%;
+  }
+
+  .contact-info{
+    font-size: 1.4em;
+  }
+
+  .contact-details{
+    font-size: 1.5em;
   }
 }
 
@@ -610,6 +617,10 @@ button:hover{
   
   .youtube-img:hover{
     background-image: url('img/youtube-mob.png');
+  }
+
+  .contact-details{
+    font-size: 0.85em;
   }
 
 
