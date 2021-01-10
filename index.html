@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Oisín Byrne</title>
 </head>
 <body>
 
@@ -13,11 +15,50 @@
             <img src="img/me.png" alt="" class="profile">
         </div>
         <div class="links-container">
-            <div class="nav-link"><a href="#projects">Projects</a></div>
             <div class="nav-link"><a href="#about">About</a></div>
+            <div class="nav-link"><a href="#projects">Projects</a></div>
             <div class="nav-link"><a href="#contact">Contact</a></div>
         </div>
     </nav>
+
+    <section class="about">
+        <a name="about"></a>
+
+        <div class="about-text">
+            <div class="about-intro">
+                <span>My name is Oisín.</span>
+                <span>I'm a self taught web-developer. </span>
+            </div>
+            <br>
+            <div class="about-extra">
+                <div class="about-filler">
+                    <p>
+                    Quarantine has left me with a lot of free time, so I taught myself to code.
+                    </p>
+                    <br>
+                    <p>
+                    Now I want to learn more, but I think I'll need some help.
+                    </p>
+                    <br>
+                    <p>
+                    So I'm looking for an opportunity to work as a Junior Developer.
+                    </p>
+                    <br>
+                    <p>
+                    Check out my projects below and if you like what you see <a href="#contact" style="text-decoration: underline;">get in touch</a></p>
+                </div>
+                <div class="about-icon">
+                    <span class="material-icons">
+                        code
+                    </span>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+
+    <div class="line-break"></div>
+    
     
     <main class="projects">
 
@@ -28,8 +69,13 @@
             <div class="project-description">
                 <h1>Members Only</h1>
                 <br>
-                <p>It's not gonna win any design awards but it's mine. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores nobis ipsum quasi cum. Corporis aperiam, nihil at asperiores reprehenderit nesciunt similique placeat repellendus obcaecati officia voluptas ea perspiciatis quia esse.<br>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum temporibus ipsam officia itaque ipsa nostrum assumenda, sit possimus dignissimos explicabo labore dolore atque eum rem beatae ut tempora harum quasi!<br><br><br>
+                <p>
+                    A message board where users can sign up and leave messages. The messages will appear to be anonymous until a user becomes a <b>Member</b>. If they are hungry for power can elevate themselves even further by becoming an <b>Admin</b>. The Admins have the power to delete messages.
+                    <br><br>
+                    <i>(Please don't delete all the messages. Or at least create a few replcements if you must exercise your phenomenal cosmic power)</i>
+                    <br><br>
+                    The app design is minimal as I was focued on deploying a fully functional and RESTFUL Back-end with user authentification through Passport JS.
+                <br><br><br>
                 
                 <div class="project-links">
                     <button class="git-link">
@@ -106,8 +152,12 @@
             <div class="project-description">
                 <h1>Fruit Shop</h1>
                 <br>
-                <p>It's not gonna win any design awards but it's mine. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores nobis ipsum quasi cum. Corporis aperiam, nihil at asperiores reprehenderit nesciunt similique placeat repellendus obcaecati officia voluptas ea perspiciatis quia esse.<br>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum temporibus ipsam officia itaque ipsa nostrum assumenda, sit possimus dignissimos explicabo labore dolore atque eum rem beatae ut tempora harum quasi!<br><br><br>
+                One of my first backend projects, this is a simple inventory management app for a fictitious little fruit shop. 
+                <br><br>
+                If you want to do any creating or destroying you're going to need the password: <b>fruity</b>
+                <br><br>
+                This project really helped me become comfortable with the fundamentals of Back-end developent and implmenting CRUD actions on an external database, MongoDB in this case.
+            <br><br><br>
                 
                 <div class="project-links">
                     <button class="git-link">
@@ -179,9 +229,15 @@
             <div class="project-description">
                 <h1>Image Tag</h1>
                 <br>
-                <p>It's not gonna win any design awards but it's mine. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores nobis ipsum quasi cum. Corporis aperiam, nihil at asperiores reprehenderit nesciunt similique placeat repellendus obcaecati officia voluptas ea perspiciatis quia esse.<br>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum temporibus ipsam officia itaque ipsa nostrum assumenda, sit possimus dignissimos explicabo labore dolore atque eum rem beatae ut tempora harum quasi!<br><br><br>
-                
+                <p>
+                I'm not going to win any design awards for this one, but I did get great expereince working with Vue JS.
+                <br><br>
+                Try to find three specific characters in each picture. The faster you find them all the lower your score, and it's golf rules so get tagging!
+                <br><br>
+                This project was fun to build, although getting the image coordinates to align with the game image when/if it was resized was a headache.
+                <br>
+                Getting to see how a cloud storage platform like Google Firebase interacts with a Front-end framework like Vue was interesting.
+                <br><br><br>
                 <div class="project-links">
                     <button class="git-link">
                         <a class="git-link" href="https://github.com/StudiousVanilla/image-tag-game">Github Repo</a>
@@ -237,8 +293,15 @@
             <div class="project-description">
                 <h1>Battleships</h1>
                 <br>
-                <p>It's not gonna win any design awards but it's mine. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores nobis ipsum quasi cum. Corporis aperiam, nihil at asperiores reprehenderit nesciunt similique placeat repellendus obcaecati officia voluptas ea perspiciatis quia esse.<br>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum temporibus ipsam officia itaque ipsa nostrum assumenda, sit possimus dignissimos explicabo labore dolore atque eum rem beatae ut tempora harum quasi!<br><br><br>
+                <p>
+                    A classic game and a classic code portfolio piece.
+                    <br><br>
+                    I presume many people know how to play Battleships, but if not here's more than you need to know: <a href="https://en.wikipedia.org/wiki/Battleship_(game)" style="color: green;">https://en.wikipedia.org/wiki/Battleship_(game)</a> 
+                    <br><br>
+                    Made with Vue and a lot of Vanilla Javascript, this was one of my earliest Front-end projects. As a result I made a ton of mistakes. It's good to look back on this project and see the improvements I can make now. Bringing this app up to sratch is definetly on my TODO list, and the first item would be making the computer (Player 2) smarter.
+                    <br>
+                    <i>- Player 2 selects randomly, and so it never wins :(</i>
+                    <br><br><br>
 
                 <div class="project-links">
                     <button class="git-link">
@@ -300,8 +363,13 @@
             <div class="project-description">
                 <h1>Weather App</h1>
                 <br>
-                <p>It's not gonna win any design awards but it's mine. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores nobis ipsum quasi cum. Corporis aperiam, nihil at asperiores reprehenderit nesciunt similique placeat repellendus obcaecati officia voluptas ea perspiciatis quia esse.<br>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum temporibus ipsam officia itaque ipsa nostrum assumenda, sit possimus dignissimos explicabo labore dolore atque eum rem beatae ut tempora harum quasi!<br><br><br>
+                <p>
+                    Although not very useful under quarantine, this prpject did give me some valuable expereince working with Vue and API's.
+                    <br><br>
+                    Type in a city or town (the bigger the better) and get up to date weather data, courtesy of <a href="https://openweathermap.org/" style="color: green;">openweathermap.org.</a> Click on the little info icon to get cool stuff like wind speed and humidity.
+                    <br><br>
+                    <i>p.s. You may need to include a country code to find the specific location you are looking for</i>
+                    <br><br><br>
 
                 <div class="project-links">
                     <button class="git-link">
@@ -358,8 +426,15 @@
             <div class="project-description">
                 <h1>Memory Game</h1>
                 <br>
-                <p>It's not gonna win any design awards but it's mine. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores nobis ipsum quasi cum. Corporis aperiam, nihil at asperiores reprehenderit nesciunt similique placeat repellendus obcaecati officia voluptas ea perspiciatis quia esse.<br>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum temporibus ipsam officia itaque ipsa nostrum assumenda, sit possimus dignissimos explicabo labore dolore atque eum rem beatae ut tempora harum quasi!<br><br><br>
+                <p>
+                    How good is your memory?
+                    <br><br>
+                    This single page application is a game I made using React. There are 38 rugby teams on the board and all you have to do is select them all, one at a time, without repeating any choices.
+                    <br><br>
+                    The catch is that the board shuffles after every selection. So you have to keep track of which teams you've chosen before.
+                    <br><br>
+                    Good luck!
+                    <br><br><br>
 
                 <div class="project-links">
                     <button class="git-link">
@@ -411,8 +486,15 @@
             <div class="project-description">
                 <h1>Mekea</h1>
                 <br>
-                <p>It's not gonna win any design awards but it's mine. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores nobis ipsum quasi cum. Corporis aperiam, nihil at asperiores reprehenderit nesciunt similique placeat repellendus obcaecati officia voluptas ea perspiciatis quia esse.<br>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum temporibus ipsam officia itaque ipsa nostrum assumenda, sit possimus dignissimos explicabo labore dolore atque eum rem beatae ut tempora harum quasi!<br><br><br>
+                <p>
+                    Another React app, this time I built an IKEA imitation and since I built it, I called it ME-KEA.
+                    <br><br>
+                    This React app was really a project that helped me become comfortable with sharing Contexts across components and using Routers, Switches and Links within/between React components.
+                    <br><br>
+                    The design is fairly basic, and there isn't a large variety in product selection, but I was happy with the data organisation I implemented for this project.
+                    <br><br>
+                    <i>(Also that IKEA sofa font is bozzare weird so I just had to use it)</i>
+                    <br><br><br>
 
                 <div class="project-links">
                     <button class="git-link">
@@ -464,8 +546,15 @@
             <div class="project-description">
                 <h1>YouTube Clone</h1>
                 <br>
-                <p>It's not gonna win any design awards but it's mine. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores nobis ipsum quasi cum. Corporis aperiam, nihil at asperiores reprehenderit nesciunt similique placeat repellendus obcaecati officia voluptas ea perspiciatis quia esse.<br>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum temporibus ipsam officia itaque ipsa nostrum assumenda, sit possimus dignissimos explicabo labore dolore atque eum rem beatae ut tempora harum quasi!<br><br><br>
+                <p>
+                    It's not quite YouTube, but it sure looks like it
+                    <br><br>
+                    This project was purely to exercise my HTML and CSS skills. There is no Javascript or fancy stuff in play here.
+                    <br><br>
+                    I wanted to prove that if I am given a design, I can build it. This project is that proof.
+                    <br><br>
+                    Nothing on this page 'works' so to speak. If you click on things nothing happens, except for the main video. The project is a façade. But that was the goal.
+                    <br><br><br>
                 <br>
 
                 <div class="project-links">
@@ -502,14 +591,23 @@
         </section>
 
     </main>  
-    
-    <a name="about"></a>
 
-    <p>about</p>
+    <section class="contact">
+        <a name="contact"></a>
 
-    <a name="contact"></a>
-
-    <p>contact</p>
+        <div class="contact-text">
+            <div class="contact-info">
+                <span>Contact Details</span>
+            </div>
+            <br>
+            <div class="contact-details">
+                <p>Github: <a href="https://github.com/StudiousVanilla">https://github.com/StudiousVanilla</a></p>
+                <p>Email: <a href="mailto:byrne.ois@gmail.com">byrne.ois@gmail.com</a></p>
+                <p>Phone: <a href="tel:0857416273">0857416273</a></p>
+                <p><a href="">CV</a></p>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
