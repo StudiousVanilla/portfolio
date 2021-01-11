@@ -739,7 +739,7 @@ footer{
   }
 
   .contact{
-    margin-top: ;
+    margin-top: 5px;
     padding: 5% 2%;
   }
 
@@ -751,6 +751,4 @@ footer{
   footer{
     font-size: 1em;
   }
-
-
 }
