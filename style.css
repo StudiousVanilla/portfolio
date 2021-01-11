@@ -485,6 +485,15 @@ button:hover{
   color: #4E6E5D
 }
 
+footer{
+  padding: 5px 10%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  font-weight: 600;
+  color:#4E6E5D;
+}
+
 
 @media only screen and (max-width: 1420px) {
 
@@ -729,8 +738,18 @@ button:hover{
     background-image: url('img/youtube-mob.png');
   }
 
+  .contact{
+    margin-top: ;
+    padding: 5% 2%;
+  }
+
   .contact-details{
     font-size: 0.85em;
+    margin-bottom: 20px;
+  }
+
+  footer{
+    font-size: 1em;
   }
 
 
