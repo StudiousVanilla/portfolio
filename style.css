@@ -387,6 +387,15 @@ button:hover{
   text-align: center;
 }
 
+.tsb-img{
+  background-image: url('img/tsb.png');
+  background-size: 100% 100%;
+}
+
+.tsb-img:hover{
+  background-image: url('gifs/tsb.gif');
+}
+
 .members-only-img{
   background-image: url('img/members-only.png');
   background-size: 100% 100%;
