@@ -237,7 +237,11 @@ a:visited{
 
 .project-description{
     width: 35%;
-    padding:5px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .project-links{
@@ -269,7 +273,8 @@ button:hover{
 }
 
 .project-image{
-    width: 33%;
+    width: 700px;
+    height: 500px;
     box-shadow: -3px 3px 15px #4E6E5D;
 }
 
@@ -502,6 +507,41 @@ footer{
   color:#4E6E5D;
 }
 
+@media only screen and (max-width: 1670px) {
+
+  .project-technology{
+    padding-top: 50px;
+    width: 100%;
+    margin-top: 10px
+
+  }
+
+  .tech-container{
+    height: 95%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .icon-container{
+    width: 85px;
+    height: 85px;
+  }
+
+  .icon{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+  }
+
+  .icon img{
+    max-width: 70%;
+    max-height: 70%;
+  }
+
+}
+
 
 @media only screen and (max-width: 1420px) {
 
@@ -519,7 +559,7 @@ footer{
 
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1420px) {
 
   .about-intro{
     flex-direction: column;
